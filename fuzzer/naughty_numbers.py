@@ -3,7 +3,7 @@ import fuzzer.utils as utils
 
 
 def get_naughty_numbers():
-    large_strings = [
+    naughty_numbers = [
         -1,
         -18624876384682468,
         0,
@@ -21,7 +21,7 @@ def get_naughty_numbers():
         10000000
     ]
 
-    return large_strings
+    return naughty_numbers
 
 
 def send_naughty_numbers_to_api(username, password, url):

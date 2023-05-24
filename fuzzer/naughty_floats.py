@@ -3,8 +3,8 @@ import fuzzer.utils as utils
 
 
 def get_naughty_floats():
-    large_strings = [
-        -1,
+    naughty_floats = [
+        -1.01,
         -1.8624876384682468,
         0,
         1,
@@ -21,7 +21,7 @@ def get_naughty_floats():
         1.0000001
     ]
 
-    return large_strings
+    return naughty_floats
 
 
 def send_naughty_floats_to_api(username, password, url):
